@@ -1,0 +1,89 @@
+.main {
+    color: rgb(38, 21, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.main1{
+    margin-top: 70px;
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100vh;
+}
+#inp{
+    width: 98%;
+
+}
+.parent{
+    display: flex;
+    gap: 5px;
+}
+.heading{
+    /* border: 1px solid  green; */
+    width: 20%;
+    margin-left: 39%;
+}
+.heading ,h2{
+    margin-bottom: -1px;
+}
+.heading1{
+    position: absolute;
+    top: 10px;
+    /* right: 0px; */
+    left: 535px;
+    margin-top: 40px;
+}
+h2{
+    color: rgb(38, 21, 102);
+
+}
+
+
+.forname {
+    color: rgb(38, 21, 102);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin-bottom: 100px;
+    /* border: 1px solid red; */
+    
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    font-size: 10px;
+    outline: none;
+}
+
+input[type=password] {
+    width: 300px;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    font-size: 10px;
+    outline: none;
+}
+
+button {
+    background-color: rgb(38, 21, 102);
+    width: 300px;
+    height: 40px;
+    color: white;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 1%;
+}
